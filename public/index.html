@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Typing Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="js/index.js"></script>
+</head>
+
+<body>
+    <div class="popup" style="display:none;">
+        <h3>Game Over</h3>
+        <button id="close" onclick="ClosePopup()">RESTART</button>
+    </div>
+    <main>
+        <div id="game">
+            <header>
+                <div class="info">
+                    <div id="time">Time: 00</div>
+                    <div id="error-count">Error: 00</div>
+                </div>
+                <button id="new-game-btn">New Game</button>
+            </header>
+            <div id="words"></div>
+        </div>
+    </main>
+    <script>
+        // Function to close the popup
+        function ClosePopup() {
+            document.querySelector(".popup").style.display = "none";  // Corrected the selector
+            newGame();  // Restart the game
+        }
+    </script>
+</body>
+
+</html>
