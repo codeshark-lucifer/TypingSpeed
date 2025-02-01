@@ -17,7 +17,7 @@ Follow these steps to set up and run the TypingSpeed game on your local machine:
 ### Installation
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/your-username/TypingSpeed.git](https://github.com/codeshark-lucifer/TypingSpeed.git)
+   git clone https://github.com/codeshark-lucifer/TypingSpeed.git
    ```
 
 2. Navigate to the project directory:
